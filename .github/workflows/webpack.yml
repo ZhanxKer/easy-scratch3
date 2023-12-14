@@ -24,4 +24,4 @@ jobs:
 
     - name: Build
       run: |
-        webpack --progress --colors --bail
+        webpack 
