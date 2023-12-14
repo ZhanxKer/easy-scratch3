@@ -24,5 +24,4 @@ jobs:
 
     - name: Build
       run: |
-        npm run clean
         webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors --bail --config webpack.prod.js
